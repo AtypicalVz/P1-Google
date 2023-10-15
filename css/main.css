@@ -115,28 +115,54 @@ main .main-buttons button:hover{
     color: #222;
 }
 footer{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    background-color: #e3e3e3;
+    border-top: 1px solid #d6d6d6;
+}
+footer ul{
     display: flex;
-    flex-direction: column;
-    height: 85px;
-    background-color: #c6c6c6;
-    padding: 0 30px;
+    list-style: none;
+    margin: 12px;
+    padding-left: 0;
     
 }
-footer section{
-    display: flex;
-    align-items: center;
-    height: 50%;
+footer .arriba .marge {
+    margin-top: 15px;
 }
-footer section.info{
-    border-top: #dfe1e5 solid 1px;
-    display: flex;
-    justify-content: space-between;
+footer .bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    border-top: 1px solid #858585;
+    
 }
-footer section.info div{
+footer ul{
     display: flex;
-    gap: 18px;
+    list-style: none;
+    margin: 12px;
+    padding-left: 0;
+    
 }
-footer section.info div a{
-color: #020202;
-text-decoration: none;
+footer .arriba{
+    margin-left: 35px;
+    list-style: none;
+    
+}
+footer .f-left{
+    margin-left: 25px;
+    justify-self: start;
+}
+footer .f-right{
+    justify-content: right;
+    margin-right: 25px;    
+}
+footer .arriba .marge a{
+    color: #303030;
+}
+footer div ul li a{
+    margin: 20px;
+    color: #303030;
 }
