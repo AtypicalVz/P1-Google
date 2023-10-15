@@ -93,7 +93,7 @@ main .main-input .micro-icon{
     cursor: pointer;
 }
 main .main.buttons{
-    width: 530;
+    width: 530px;
     margin: 0 auto;
 }
 main .main-buttons div{
@@ -137,13 +137,6 @@ footer .bottom{
     grid-template-columns: 1fr 1fr;
     margin-top: 10px;
     border-top: 1px solid #858585;
-    
-}
-footer ul{
-    display: flex;
-    list-style: none;
-    margin: 12px;
-    padding-left: 0;
     
 }
 footer .arriba{
